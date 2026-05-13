@@ -5,5 +5,9 @@ public class Main {
         Produk p2 = new Makanan("Bakso", 1000, 100, 3);
 
         Kasir kasir = new Kasir("Maman");
+
+        p1.tampilInfo();
+        kasir.tampilIdentitas();
+        kasir.prosesBelanja(p1, 3);
     }
 }
