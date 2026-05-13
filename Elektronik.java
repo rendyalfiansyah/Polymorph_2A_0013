@@ -4,5 +4,11 @@ public class Elektronik extends Produk {
     public Elektronik(String nama, double harga, int stok, int masaGaransi) {
         super(nama, harga, stok);
         this.masaGaransi = masaGaransi;
+
+    @Override
+    public void tampilInfo() {
+        super.tampilInfo();
+        System.out.println("Masa Garansi: " + masaGaransi + " Tahun");
+    }
     }
 }
