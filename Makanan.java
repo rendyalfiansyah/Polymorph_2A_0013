@@ -15,5 +15,6 @@ public class Makanan extends Produk {
     @Override
     public void tampilInfo() {
         super.tampilInfo();
+        System.out.println("Masa Kadaluarsa: " + kadaluarsa + " Hari");
     }
 }
